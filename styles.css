@@ -1,0 +1,60 @@
+﻿
+/* Instructor CSS */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #006A39; /* NDSU Green */
+    color: white;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+    header img {
+        height: 50px;
+        margin-right: 10px;
+    }
+
+    header nav a {
+        color: white;
+        background-color: #FFCC00; /* NDSU Yellow */
+        padding: 8px 16px;
+        margin-left: 10px;
+        border-radius: 5px;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+        header nav a:hover {
+            background-color: #e6b800;
+        }
+
+main {
+    padding: 20px;
+}
+
+button, input[type="submit"] {
+    background-color: #006A39;
+    color: white;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+    button:hover, input[type="submit"]:hover {
+        background-color: #004d2c;
+    }
+
+footer {
+    background-color: #006A39;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
